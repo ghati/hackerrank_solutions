@@ -1,4 +1,4 @@
-package me.aroniez.hackerrank.domains.datastructures.arrays;
+package domains.datastructures.arrays;
 
 import java.util.Scanner;
 

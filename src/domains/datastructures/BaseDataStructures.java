@@ -1,4 +1,4 @@
-package me.aroniez.hackerrank.domains.datastructures;
+package domains.datastructures;
 
 /**
  * Created by Aaron on 12/24/2016.

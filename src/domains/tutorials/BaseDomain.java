@@ -1,4 +1,4 @@
-package me.aroniez.hackerrank.domains.tutorials;
+package domains.tutorials;
 
 /**
  * Created by Aaron on 12/24/2016.

@@ -1,4 +1,4 @@
-package me.aroniez.hackerrank;
+package domains;
 
 /**
  * Created by Aaron on 12/24/2016.
