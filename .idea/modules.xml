@@ -3,6 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Hackerrank.iml" filepath="$PROJECT_DIR$/Hackerrank.iml" />
+<<<<<<< HEAD
+=======
+      <module fileurl="file://$PROJECT_DIR$/Hackerrank_clone.iml" filepath="$PROJECT_DIR$/Hackerrank_clone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+>>>>>>> 634788379f8e8048e59f9247eca5d6360e2fef21
     </modules>
   </component>
 </project>
