@@ -9,7 +9,7 @@ import java.util.Scanner;
 //https://www.hackerrank.com/challenges/insertionsort1
 public class InsertionSort1 {
 
-    static void insertionSort(int[] arrayItems) {
+    private static void insertionSort(int[] arrayItems) {
         int lastPosition = arrayItems.length - 1;
         int itemToBeInserted = arrayItems[lastPosition];
         while (lastPosition > 0 && arrayItems[lastPosition - 1] > itemToBeInserted) {
@@ -21,9 +21,9 @@ public class InsertionSort1 {
         printOurArray(arrayItems);
     }
 
-    static void printOurArray(int[] ar) {
+    private static void printOurArray(int[] array) {
         StringBuffer stringBuffer = new StringBuffer();
-        for (int n : ar) {
+        for (int n : array) {
             stringBuffer.append(n).append(" ");
         }
         System.out.println(stringBuffer);
