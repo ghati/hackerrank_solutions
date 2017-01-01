@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1a72671-ca20-4ad5-914f-8733d9cade6d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/domains/algorithms/AlgorithmTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/domains/algorithms/sorting/InsertionSort1.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/domains/algorithms/sorting/InsertionSort1.java" afterPath="$PROJECT_DIR$/src/domains/algorithms/sorting/InsertionSort1.java" />
     </list>
     <ignored path="Hackerrank.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="ArraysDS.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/domains/datastructures/arrays/ArraysDS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
+            <state relative-caret-position="255">
               <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
               <folding />
             </state>
@@ -49,8 +48,8 @@
       <file leaf-file-name="InsertionSort1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/domains/algorithms/sorting/InsertionSort1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            <state relative-caret-position="258">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -118,9 +117,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -207,11 +203,15 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Hackerrank_clone" />
   </component>
   <component name="RunManager" selected="Application.ArraysDS">
     <configuration default="false" name="ArraysDS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -621,7 +621,8 @@
       <option name="presentableId" value="Default" />
       <updated>1483129501914</updated>
       <workItem from="1483129510920" duration="630000" />
-      <workItem from="1483130983419" duration="1222000" />
+      <workItem from="1483130983419" duration="1908000" />
+      <workItem from="1483295954937" duration="1169000" />
     </task>
     <task id="LOCAL-00001" summary="Changed the project to Intellij Idea from android studio">
       <created>1483129667443</created>
@@ -637,11 +638,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483129691944</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Insertion sort algorithm">
+      <created>1483134719335</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1483134719335</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1852000" />
+    <option name="totallyTimeSpent" value="3707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
@@ -685,7 +693,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed the project to Intellij Idea from android studio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed the project to Intellij Idea from android studio" />
+    <MESSAGE value="Insertion sort algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Insertion sort algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -698,15 +707,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/domains/datastructures/arrays/ArraysDS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domains/datastructures/arrays/ArraysDS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
+        <state relative-caret-position="255">
           <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
           <folding />
         </state>
@@ -722,8 +723,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/domains/algorithms/sorting/InsertionSort1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domains/datastructures/arrays/ArraysDS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domains/datastructures/arrays/ArraysDS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domains/algorithms/AlgorithmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domains/algorithms/sorting/InsertionSort1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
